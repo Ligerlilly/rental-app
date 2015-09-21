@@ -11,10 +11,13 @@ export default Ember.Component.extend({
     },
     delete(city) {
       if (confirm("Really?")){
-        //console.log(city);       
+        //console.log(city);
         this.sendAction("destroyCity", city);
       }
 
+    },
+    showCityEdit() {
+      this.set("editCity", true);
     }
   }
 });
