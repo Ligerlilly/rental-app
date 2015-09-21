@@ -1,0 +1,39 @@
+{ "rentals": [{
+    "owner": "Veruca Salt",
+    "city": {"name": "San Francisco", "id": 3 },
+    "type": "Estate",
+    "bedrooms": 15,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "owner": "Mike Teavee",
+    "city": {"name": "Seattle", "id": 2},
+    "type": "Condo",
+    "bedrooms": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+  }, {
+    "owner": "Violet Beauregarde",
+    "city": {"name": "Portland", "id": 1},
+    "type": "Apartment",
+    "bedrooms": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+  "cities": [{
+    "id": 1,
+    "name": "Portland",
+    "attractions": [
+      "Voodoo Doughnuts", "Multnohma Falls"
+      ]
+    },
+    {"id": 2,
+     "name":"Seattle",
+      "attractions": [
+        "Space Needle", "Starbucks"
+      ]
+    },
+    {"id": 3,
+     "name":"San Francisco",
+      "attractions": [
+        "Golden Gate", "Fisherman's Wharf"
+      ]
+      }]
+}

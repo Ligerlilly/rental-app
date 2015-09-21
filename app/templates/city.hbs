@@ -1,0 +1,7 @@
+<ul>
+
+{{#each model as |city-unit|}}
+  <li>{{city-tile city=city-unit destroyCity='destroyCity'}}</li>
+{{/each}}
+</ul>
+{{new-city saveTheCity="saveTheDamnCity"}}

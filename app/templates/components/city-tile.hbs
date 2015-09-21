@@ -1,0 +1,11 @@
+<li>{{city.name}}</li>
+{{#if isAttractionShowing}}
+  <ul {{action "attractionHide"}}>
+    {{#each city.attractions as |a|}}
+    <li>{{a}}</li>
+    {{/each}}
+  </ul>
+{{else}}
+  <button class='btn btn-success' {{ action "attractionShow" }}>Show Attractions</button>
+{{/if}}
+<button {{action "delete" city }} class='btn btn-danger'>delete</button>
